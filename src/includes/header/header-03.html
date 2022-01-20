@@ -1,0 +1,108 @@
+<header id="pt-header">
+	<div class="headerunderline">
+		<div class="container-fluid">
+			<div class="pt-header-row pt-top-row no-gutters">
+				<div class="pt-col-left col-3">
+					@@include('objects/box-info.html')
+				</div>
+				<div class="pt-col-center col-6">
+					@@include('objects/box-info-slider.html')
+				</div>
+				<div class="pt-col-right col-3 ml-auto">
+					@@include('objects/submenu.html')
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- pt-mobile menu -->
+	@@include('objects/mobile-menu.html')
+	<!-- pt-mobile-header -->
+	<div class="pt-mobile-header">
+		<div class="container-fluid">
+			<div class="pt-header-row">
+				<!-- mobile menu toggle -->
+				@@include('objects/mobile-menu-toggle.html')
+				<!-- /mobile menu toggle -->
+				<div class="pt-logo-container">
+					<!-- mobile logo -->
+					@@include('objects/logo-text.html')
+					<!-- /mobile logo -->
+				</div>
+				<!-- search -->
+				<div class="pt-mobile-parent-search pt-parent-box"></div>
+				<!-- /search -->
+				<!-- cart -->
+				<div class="pt-mobile-parent-cart pt-parent-box"></div>
+				<!-- /cart -->
+			</div>
+		</div>
+	</div>
+	<!-- pt-desktop-header -->
+	<div class="pt-desktop-header">
+		<div class="container-fluid">
+			<div class="headinfo-box form-inline">
+				<!-- logo -->
+				@@include('objects/logo-text.html')
+				<!-- /logo -->
+				<div class="navinfo text-right">
+					<!-- pt-menu -->
+					<div class="pt-desctop-parent-menu">
+						@@include('objects/desktop-menu.html')
+					</div>
+					<!-- /pt-menu -->
+				</div>
+				<div class="options">
+					<!-- pt-search -->
+					<div class="pt-desctop-parent-search pt-parent-box">
+						@@include('objects/search.html')
+					</div>
+					<!-- /pt-search -->
+					<!-- pt-account -->
+					<div class="pt-desctop-parent-account pt-parent-box">
+						@@include('objects/account.html')
+					</div>
+					<!-- /pt-account -->
+					<!-- pt-compare -->
+					<div class="pt-desctop-parent-compare pt-parent-box">
+						@@include('objects/compare.html')
+					</div>
+					<!-- /pt-compare -->
+					<!-- pt-wishlist -->
+					<div class="pt-desctop-parent-wishlist pt-parent-box">
+						@@include('objects/wishlist.html')
+					</div>
+					<!-- /pt-wishlist -->
+					<!-- pt-cart -->
+					<div class="pt-desctop-parent-cart pt-parent-box">
+						@@include('objects/cart.html')
+					</div>
+					<!-- /pt-cart -->
+					<div class="pt-desctop-parent-language pt-parent-box">
+						@@include('objects/language.html')
+					</div>
+					<div class="pt-desctop-parent-currency pt-parent-box">
+						@@include('objects/currency.html')
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- stuck nav -->
+	<div class="pt-stuck-nav">
+		<div class="container-fluid">
+			<div class="pt-header-row ">
+				<div class="pt-stuck-parent-menu"></div>
+				<div class="pt-logo-container">
+					<!-- mobile logo -->
+					@@include('objects/logo-text.html')
+					<!-- /mobile logo -->
+				</div>
+				<div class="pt-stuck-parent-search pt-parent-box"></div>
+				<div class="pt-stuck-parent-account pt-parent-box"></div>
+				<div class="pt-stuck-parent-compare pt-parent-box"></div>
+				<div class="pt-stuck-parent-wishlist pt-parent-box"></div>
+				<div class="pt-stuck-parent-cart pt-parent-box"></div>
+			</div>
+		</div>
+	</div>
+</header>
